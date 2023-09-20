@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bcd"
+    android:id="@+id/main"
+    >
+
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbarMain"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+
+    />
+
+  <com.google.android.material.tabs.TabLayout
+      android:id="@+id/TabtoolbartoolbarMain"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:background="#0F0622"
+
+     app:tabTextColor="@color/mycolor6"
+      app:tabIndicatorColor="@color/mycolor6"
+      app:tabIndicatorAnimationMode="elastic"
+      app:tabTextAppearance="@style/TextAppearance.Material3.BodyLarge"
+      />
+
+
+  <androidx.viewpager2.widget.ViewPager2
+      android:id="@+id/viewpager2Main"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+
+      android:background="#0F0622" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/showContactButton"
+        android:layout_width="88dp"
+        app:backgroundTint="#261F1F"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="-60dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/baseline_contact_page_24"
+        app:maxImageSize="25sp"
+
+   android:contentDescription="Check Contacts"
+
+        />
+
+
+
+</LinearLayout>

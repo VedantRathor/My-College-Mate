@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_us"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <TextView
+            android:paddingTop="20sp"
+            android:padding="10sp"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:text="Hi, my name is Ty\n ler, and I believe that educating people about how \n culture and food correlate helps indivi\n duals understand more abo\n ut themselves. I have nine \n years of \n experience exploring and discover\n ing the unique recipes \n made by comm\n unities around\n  the world, and I \n use my knowledge to\n  create custom and memor\n able events. I believe that br\n inging together culture, food and people \ny name is Ty\n ler, and I believe that educating people about how \n culture and food correlate helps indivi\n duals understand more abo\n ut themselves. Iy name is Ty\n ler, and I believe that educating people about how \n culture and food correlate helps indivi\n duals understand more abo\n ut themselves. Iy name is Ty\n ler, and I believe that educating people about how \n culture and food correlate helps indivi\n duals understand more abo\n ut themselves. Iy name is Ty\n ler, and I believe that educating people about how \n culture and food correlate helps indivi\n duals understand more abo\n ut themselves. Iy name is Ty\n ler, and I believe that educating people about how \n culture and food correlate helps indivi\n duals understand more abo\n ut themselves. Iy name is Ty\n ler, and I believe that educating people about how \n culture and food correlate helps indivi\n duals understand more abo\n ut themselves. Iy name is Ty\n ler, and I believe that educating people about how \n culture and food correlate helps indivi\n duals understand more abo\n ut themselves. Iy name is Ty\n ler, and I believe that educating people about how \n culture and food correlate helps indivi\n duals understand more abo\n ut themselves. Iy name is Ty\n ler, and I believe that educating people about how \n culture and food correlate helps indivi\n duals understand more abo\n ut themselves. Iy name is Ty\n ler, and I believe that educating people about how \n culture and food correlate helps indivi\n duals understand more abo\n ut themselves. I"
+
+            android:textSize="20dp"
+            android:textColor="@color/mycolor9"
+            android:textStyle="bold"
+            />
+
+    </ScrollView>
+
+</FrameLayout>

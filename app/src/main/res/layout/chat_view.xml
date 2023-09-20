@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="10dp"
+    android:padding="5dp"
+    app:cardBackgroundColor="#9654A2"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="30000dp"
+    app:cardMaxElevation="1000dp"
+    app:cardPreventCornerOverlap="true"
+    android:backgroundTint="@color/teal_200"
+    android:backgroundTintMode="multiply"
+    android:id="@+id/chatcontent"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ContactImage_id_chat"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="start|center_horizontal"
+
+        android:layout_margin="5dp"
+        android:src="@drawable/add"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="80dp"
+        >
+
+        <TextView
+            android:id="@+id/txtName_chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:padding="7dp"
+            android:text="@string/name_of_user"
+            android:textColor="@color/mycolor6"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/txtEmail_chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/email_of_user"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/mycolor6"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="2dp"
+
+            android:padding="7dp"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

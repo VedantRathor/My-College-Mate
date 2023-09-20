@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+
+    <item
+
+        android:id="@+id/overflowMenu"
+        android:icon="@android:drawable/btn_dropdown"
+        android:title=""
+
+        app:showAsAction="always">
+        <menu>
+
+            <item
+
+                android:id="@+id/Id_profile"
+                android:title="Profile"
+                android:icon="@drawable/sharp_person_25"
+
+                />
+            <item
+                android:id="@+id/id_aboutUs"
+                android:title="About us"
+
+                android:icon="@drawable/baseline_groups_3_24"
+                />
+
+            <item
+                android:id="@+id/id_Logout"
+                android:title="Logout"
+                android:icon="@drawable/baseline_west_24"
+
+                />
+            <item android:id="@+id/searchcontactsID"
+                android:title="search"
+                android:icon="@drawable/baseline_search_24"/>
+        </menu>
+    </item>
+
+
+</menu>
+

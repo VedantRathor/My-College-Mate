@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Vedant,s Messenger</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logosignUp">LOGO</string>
+    <string name="email">Email :</string>
+    <string name="name_of_user">name_of_user</string>
+    <string name="email_of_user">Email of User</string>
+    <string name="status_of_user">Status of user</string>
+</resources>

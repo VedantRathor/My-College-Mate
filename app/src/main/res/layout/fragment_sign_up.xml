@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SignUp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_email"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="enter email :"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:startIconTint="@color/black"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etsignup_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    />
+
+
+
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_password"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@id/signup_email"
+                android:hint="enter password :"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                app:endIconMode="password_toggle"
+                app:endIconTint="@color/black"
+                app:startIconTint="@color/black"
+
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etsignup_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/mycolor5"
+
+                    android:padding="8dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+
+
+                    />
+
+
+
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_Confirmpassword"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@id/signup_password"
+                android:hint="confirm password :"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                app:endIconMode="password_toggle"
+                app:endIconTint="@color/black"
+                app:startIconTint="@color/black"
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etsignupCOmfirm_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/black"
+
+                    android:padding="8dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+
+
+                    />
+
+
+
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/signUpButtonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/signup_Confirmpassword"
+                android:layout_marginTop="17dp"
+                android:contentDescription="Signup"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Sign up "
+                android:textColor="@color/black"
+                android:background="@color/mycolor3"
+                android:textStyle="bold"
+                android:textSize="10dp"
+
+
+
+                />
+
+
+                <ProgressBar
+                    android:id="@+id/Progress_bar_signup"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone"
+                    />
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

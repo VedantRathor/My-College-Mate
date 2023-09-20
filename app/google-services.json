@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "478336653015",
+    "project_id": "vedant-s-messenger",
+    "storage_bucket": "vedant-s-messenger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478336653015:android:7e0bdab45382a09c220292",
+        "android_client_info": {
+          "package_name": "com.example.android.vedantsmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478336653015-dqv4mb2avlbaj3q1r0o90fm1u9ul6rq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqtiQSSkFmT1s79G4-iaLaBsg308Epsag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478336653015-dqv4mb2avlbaj3q1r0o90fm1u9ul6rq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
