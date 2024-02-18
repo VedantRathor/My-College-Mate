@@ -4,4 +4,4 @@ Integrated OpenCV for facial detection, biometric authentication, and implemente
 Successfully integrated Firebase Realtime Database for real-time chat and leveraged zegocloud for interactive group video meetings. Enhanced video learning experience by integrating Media3 Exoplayer for smooth streaming (video completion increases by 16%). Implemented sorting/graph visuals using Canvas on a separate thread.
 Achieved a 20% reduction in memory usage by optimizing app UI with Recycler View.
 # Exposure
- OpenCV , Android Jetpack Libraries, Postman , Firebase ML Ki
+ OpenCV , Android Jetpack Libraries, Postman , Firebase ML Kit, Android Studio, Firebase, MongoDB, Firebase storage, Algorithms
