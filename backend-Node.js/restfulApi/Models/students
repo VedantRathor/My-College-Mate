@@ -1,0 +1,34 @@
+// define the schema and create a collection
+const validator = require("validator")
+const mongoose = require("mongoose") 
+
+const studentSchema = new mongoose.Schema({
+    name : {
+        type : String,
+        required : true,
+        minlength : 3,
+    },
+    email : {
+        type : String, 
+        required : true,
+        unique : true, 
+        validate(value){
+            if(!validator.isEmail(value)){
+                console.log("Invalid Email")
+            }
+        }
+    },
+    phoneno : {
+        type : Number,
+        required : true 
+    },
+    address :{
+        type : String,
+        required : true 
+    } 
+})
+
+
+const Student = mongoose.model("Student",studentSchema) 
+
+module.exports = Student
