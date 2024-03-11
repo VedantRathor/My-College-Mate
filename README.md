@@ -5,4 +5,4 @@
 ✔️Implemented sorting/graph visuals using Canvas on a separate thread.
 Achieved a 20% reduction in memory usage by optimizing app UI with Recycler View.
 # Exposure
- Node.js , Android Jetpack Libraries, Postman , Firebase ML Kit, Android Studio, Firebase, MongoDB, Firebase storage, Algorithms, OpenCV, SocketIO
+ Node.js , Android Jetpack Libraries, Postman , Firebase ML Kit, Android Studio, Firebase, MongoDB, Firebase storage, Algorithms, SocketIO
